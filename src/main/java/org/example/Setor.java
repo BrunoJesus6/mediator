@@ -1,2 +1,7 @@
-package org.example;public class Setor {
+package org.example;
+
+public interface Setor {
+    String receberReclamacao(String mensagem);
+    String receberElogio(String mensagem);
+    String receberSugestao(String mensagem);
 }
